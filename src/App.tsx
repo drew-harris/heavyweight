@@ -1,15 +1,10 @@
 import "./App.css";
-import * as Tone from "tone";
+import TwitchView from "./Components/TwitchView/TwitchView";
 
 function App() {
-  const playSound = () => {
-    var synth = new Tone.Synth().toDestination();
-    synth.triggerAttackRelease("C6", 3);
-  };
   return (
     <div className="App">
-      Successfully Deployed
-      <button onClick={playSound}>Make a sound</button>
+      <TwitchView />
     </div>
   );
 }
