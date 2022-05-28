@@ -8,6 +8,7 @@ function App() {
   };
   return (
     <div className="App">
+      Successfully Deployed
       <button onClick={playSound}>Make a sound</button>
     </div>
   );
