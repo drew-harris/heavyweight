@@ -37,7 +37,7 @@ const Timer = () => {
       let id = setInterval(() => {
         if (timeRef.current <= 0) {
           //@ts-ignore
-          endOfRestBeep();
+          document.getElementById("beeper")?.click();
           stop();
         } else {
           setTime(timeRef.current - 1);
@@ -52,6 +52,9 @@ const Timer = () => {
     <div className={styles.timer}>
       <div className={styles.timedisplay}>{formatTime(time)}</div>
       <Button onClick={handleClick} text={running ? "Stop" : "Start"} />
+      <button id="beeper" onClick={() => endOfRestBeep()}>
+        Beep
+      </button>
     </div>
   );
 };
