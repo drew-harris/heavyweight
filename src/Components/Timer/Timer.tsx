@@ -1,6 +1,5 @@
 import { useEffect, useRef, useState } from "react";
 import { endOfRestBeep } from "../../Api/Beeps";
-import * as Tone from "tone";
 import Button from "../Button/Button";
 import styles from "./Timer.module.css";
 const Timer = () => {
