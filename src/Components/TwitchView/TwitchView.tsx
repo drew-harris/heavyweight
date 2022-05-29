@@ -4,7 +4,7 @@ import Button from "../Button/Button";
 const TwitchView = () => {
   const channel = "hasanabi";
   const [hidden, setHidden] = useState(false);
-  const width = window.innerWidth;
+  const width = window.innerWidth > 500 ? 400 : window.innerWidth;
   return (
     <div className="twitch-view">
       {!hidden && (
