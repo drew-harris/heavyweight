@@ -7,17 +7,15 @@ function App() {
     <div className="App">
       <TwitchView />
       <Timer />
-      DB Military Press 4x10-15
+      DB Goblet Squats 4x15
       <br />
-      DB Lateral Raise 4x10-15
+      DB Walking Lunges 4x15
       <br />
-      DB Bent Over Rear Delt Fly X DB Front Raise 4x10-15
+      DB RDLs 4x15
       <br />
-      DB Overhead Extension 4x10-15
+      DB Blugarian Split Squat 4x15
       <br />
-      Alternating DB Curls 4x10-15
-      <br />
-      Alternating Hammer Curls 4x10-15
+      Standing DB Calve Raises 3xFailure
       <br />
     </div>
   );
